@@ -1,11 +1,3 @@
-package de.martin_ueding.spiel.staubsauger;
-
-/**
- * Stellt einen der Staubpartikel dar.
- *
- * Copyright: Martin Ueding
- */
-
 public class Police {
 	final boolean guteSicht = true;
 	public static int outside = 0;

@@ -1,5 +1,3 @@
-package de.martin_ueding.spiel.staubsauger;
-
 import java.util.ResourceBundle;
 
 /**

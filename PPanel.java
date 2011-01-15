@@ -1,15 +1,7 @@
-package de.martin_ueding.spiel.staubsauger;
-
 import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
-
-/**
- * Zeigt die Punkte an.
- *
- * Copyright: Martin Ueding
- */
 
 public class PPanel extends JPanel {
 	private static final long serialVersionUID = 1L;

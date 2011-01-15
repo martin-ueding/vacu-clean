@@ -1,19 +1,10 @@
-package de.martin_ueding.spiel.staubsauger;
-
 import java.awt.BorderLayout;
 import java.util.Timer;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
-
-import de.martin_ueding.spiel.highscore.Highscore;
-
-/**
- * Ein virtueller Staubsauger.
- *
- * Copyright: Martin Ueding
- */
 
 public class Staubsauger {
 	public static int px, py;
@@ -49,11 +40,11 @@ public class Staubsauger {
 		j.setVisible(true);
 		
 		Timer timer = new Timer();
-		timer.schedule(new MyTimer(), 0, 150);
+		timer.schedule(new MyTimer(), 0, 50);
 	}
 	
 	public static void gameOver() {
-		Highscore.senden(spielpunkte, "Staubsauger");
+		JOptionPane.showMessageDialog(null, "gewonnen mit "+spielpunkte+" Punkten.");
 		System.exit(0);
 	}
 }
