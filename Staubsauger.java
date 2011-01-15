@@ -24,6 +24,7 @@ public class Staubsauger {
 		}
 		
 		j = new JFrame(Spr.get("staubsauger"));
+		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JPanel lay = new JPanel(new BorderLayout());
 		
 		j.setSize(fb+30, fh+20);
