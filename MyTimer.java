@@ -7,7 +7,7 @@ public class MyTimer extends TimerTask {
 		if (Staubsauger.spielpunkte > 0)
 			Staubsauger.spielpunkte--;
 			
-		if (Staubsauger.pol.length == Police.outside)
+		if (Staubsauger.pol.length == Particle.outside)
 			Staubsauger.gameOver();
 	}
 }

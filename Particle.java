@@ -1,10 +1,10 @@
-public class Police {
+public class Particle {
 	final boolean guteSicht = true;
 	public static int outside = 0;
 	
 	int x, y;
 	
-	public Police () {
+	public Particle () {
 		respawn();
 	}
 	

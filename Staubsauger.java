@@ -10,7 +10,7 @@ public class Staubsauger {
 	public static int px, py;
 	static JFrame j;
 	static JProgressBar bar;
-	static Police[] pol = new Police[700];
+	static Particle[] pol = new Particle[700];
 	static int punkte = 0;
 	public static int fb, fh;
 	public static int spielpunkte = 1000;
@@ -20,7 +20,7 @@ public class Staubsauger {
 		fh = 400;
 		
 		for (int i = 0; i < pol.length; i++) {
-			pol[i] = new Police();
+			pol[i] = new Particle();
 		}
 		
 		j = new JFrame(Spr.get("staubsauger"));
