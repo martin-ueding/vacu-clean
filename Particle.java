@@ -1,3 +1,5 @@
+// Copyright (c) Martin Ueding <dev@martin-ueding.de>
+
 public class Particle {
 	final boolean guteSicht = true;
 	public static int outside = 0;

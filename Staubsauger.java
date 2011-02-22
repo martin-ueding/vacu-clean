@@ -1,3 +1,5 @@
+// Copyright (c) Martin Ueding <dev@martin-ueding.de>
+
 import java.awt.BorderLayout;
 import java.util.Timer;
 
