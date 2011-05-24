@@ -5,3 +5,6 @@ vacucleangame.jar: Staubsauger.class
 
 Staubsauger.class: *.java
 	javac Staubsauger.java
+
+clean:
+	rm -rf *.jar *.class
